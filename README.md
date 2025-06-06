@@ -1,0 +1,1 @@
+# N8N Skeleton for n8n workflows
