@@ -1,34 +1,24 @@
-📦 n8n Skeleton
-A boilerplate project structure for building custom n8n workflows and extensions. This skeleton is designed to speed up development and simplify integration with external services.
+# 📦 n8n Skeleton
 
-This repository provides a minimal, reusable setup that supports:
+Minimal starter template to run and extend [n8n](https://n8n.io/), the open-source workflow automation tool.  
+This skeleton is designed to help you quickly set up a self-hosted n8n instance using Docker, with the flexibility to add custom nodes, credentials, or workflows.
 
-Custom credentials
+---
 
-Custom nodes
+## 📁 Project Structure
 
-Preconfigured workflows
+- `.env.example` – Template for environment variables  
+- `.gitignore` – Standard ignores for Node.js and Docker  
+- `docker-compose.yml` – Launch n8n using Docker with minimal setup  
+- `package.json` – Ready to extend with custom packages  
+- `README.md` – Project documentation and usage guide
 
-Docker-based deployment
+---
 
-Perfect for developers building modular, self-hosted, or tailored automation solutions.
+## 🚀 Getting Started
 
-🚀 Features
-Clean and production-ready structure
+### 1. Clone the Repository
 
-Compatible with n8n@latest
-
-Easy to extend and maintain
-
-Git-friendly and CI/CD ready
-
-🛠️ Getting Started
-Clone the repository
-
-Install dependencies
-
-Customize your nodes and workflows
-
-Run n8n locally or via Docker
-
-Let me know if you'd like a sample docker-compose.yml section or instructions for deploying to a cloud provider like Heroku, Fly.io, or Render.
+```bash
+git clone https://github.com/your-username/n8n-skeleton.git
+cd n8n-skeleton
